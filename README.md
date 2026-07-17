@@ -4,7 +4,8 @@
 **Priti-Patil30/Priti-Patil30** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
-
+Image Gallery- A responsive web gellery to shoecase images.
+Tech Stack: HTML,CSS,JavaSCript
 - 🔭 I’m currently working on ...
 - 🌱 I’m currently learning ...
 - 👯 I’m looking to collaborate on ...
@@ -14,5 +15,4 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-Image Gallery- A responsive web gellery to shoecase images.
-Tech Stack: HTML,CSS,JavaSCript
+
