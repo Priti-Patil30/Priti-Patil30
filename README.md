@@ -14,6 +14,5 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-# Project
 Image Gallery- A responsive web gellery to shoecase images.
 Tech Stack: HTML,CSS,JavaSCript
