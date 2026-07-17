@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Responsive Image Gallery</title>
+
+  <!-- CSS File -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Responsive Image Gallery</h1>
+
+  <!-- FILTER BUTTONS -->
+  <div class="filters">
+    <button class="active" onclick="filterImages('all', event)">All</button>
+    <button onclick="filterImages('nature', event)">Nature</button>
+    <button onclick="filterImages('city', event)">City</button>
+    <button onclick="filterImages('animals', event)">Animals</button>
+  </div>
+
+  <!-- GALLERY -->
+  <div class="gallery">
+
+    <div class="gallery-item nature">
+      <img src="https://picsum.photos/id/1015/600/400" alt="Nature">
+    </div>
+
+    <div class="gallery-item city">
+      <img src="https://picsum.photos/id/1011/600/400" alt="City">
+    </div>
+
+    <div class="gallery-item animals">
+      <img src="https://picsum.photos/id/1025/600/400" alt="Animal">
+    </div>
+
+    <div class="gallery-item nature">
+      <img src="https://picsum.photos/id/1039/600/400" alt="Nature">
+    </div>
+
+    <div class="gallery-item city">
+      <img src="https://picsum.photos/id/1043/600/400" alt="City">
+    </div>
+
+    <div class="gallery-item animals">
+      <img src="https://picsum.photos/id/1062/600/400" alt="Animal">
+    </div>
+
+  </div>
+
+  <!-- LIGHTBOX -->
+  <div class="lightbox" id="lightbox">
+    <span class="close">&times;</span>
+
+    <img id="lightbox-img" src="" alt="">
+
+    <div class="controls">
+      <button id="prev">❮ Prev</button>
+      <button id="next">Next ❯</button>
+    </div>
+  </div>
+
+  <!-- JavaScript File -->
+  <script src="script.js"></script>
+
+</body>
+</html>
